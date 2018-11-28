@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
   s.name         = "BaseProject"
   s.version      = "0.0.1"
   s.summary      = "集合工具"
-s.homepage     = "https://github.com/wangxiangzhao/BaseProject"
+  s.homepage     = "https://github.com/wangxiangzhao/BaseProject"
   s.social_media_url = 'https://www.baidu.com'
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author       = { "wangxiangzhao" => "13269532539@163.com" }
   s.source       = { :git => 'https://github.com/wangxiangzhao/BaseProject.git', :tag => s.version}
   s.requires_arc = true
-  s.source_files = 'BaseProject/Tools/*'
-  #s.public_header_files = 'BaseProject/Tools/WXZImportHeader.h'
+  s.source_files = 'BaseProject/Toos/*'
+  #s.public_header_files = 'BaseProject/Toos/WXZImportHeader.h'
 
 
 end

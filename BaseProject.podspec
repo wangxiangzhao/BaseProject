@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BaseProject"
-  s.version      = "0.1.0"
+  s.version      = "0.1.5"
   s.summary      = "集合工具"
   s.homepage     = "https://github.com/wangxiangzhao/BaseProject"
   s.social_media_url = 'https://www.baidu.com'
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.author       = { "wangxiangzhao" => "13269532539@163.com" }
   s.source       = { :git => 'https://github.com/wangxiangzhao/BaseProject.git', :tag => s.version}
   s.requires_arc = true
-  s.source_files = 'BaseProject/src/*'
-  #s.public_header_files = 'BaseProject/src/WXZImportHeader.h'
+  s.source_files = 'src/*'
+  #s.public_header_files = 'src/WXZImportHeader.h'
 
 
 end

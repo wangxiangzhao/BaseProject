@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.author       = { "wangxiangzhao" => "13269532539@163.com" }
   s.source       = { :git => 'https://github.com/wangxiangzhao/BaseProject.git', :tag => s.version}
   s.requires_arc = true
-  s.source_files = 'src/*'
-  #s.public_header_files = 'src/WXZImportHeader.h'
+  s.source_files = 'BaseProject/src/*'
+  #s.public_header_files = 'BaseProject/src/WXZImportHeader.h'
 
 
 end

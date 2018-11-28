@@ -14,7 +14,6 @@
 #import "WXZProperty.h"
 #import "WXZCheck.h"
 #import "WXZUtil.h"
-#import "WXZGCD.h"
 #import "WXZMessyDefine.h"
 #import "WXZTimer.h"
 #import "WXZDeviceInfoManager.h"

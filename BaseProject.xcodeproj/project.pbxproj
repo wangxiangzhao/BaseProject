@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F17B609F21AE2DAB008E4CF3 /* WXZDeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B609E21AE2DAB008E4CF3 /* WXZDeviceInfoManager.m */; };
+		F17B60C521AE35A9008E4CF3 /* WXZDeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60A921AE35A9008E4CF3 /* WXZDeviceInfoManager.m */; };
+		F17B60C621AE35A9008E4CF3 /* WXZCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60AB21AE35A9008E4CF3 /* WXZCheck.m */; };
+		F17B60C721AE35A9008E4CF3 /* WXZGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60AD21AE35A9008E4CF3 /* WXZGCD.m */; };
+		F17B60C821AE35A9008E4CF3 /* WXZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60AE21AE35A9008E4CF3 /* WXZTimer.m */; };
+		F17B60C921AE35A9008E4CF3 /* WXZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60B021AE35A9008E4CF3 /* WXZUtil.m */; };
+		F17B60CA21AE35A9008E4CF3 /* UIView+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60BB21AE35A9008E4CF3 /* UIView+Exts.m */; };
+		F17B60CB21AE35A9008E4CF3 /* NSString+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60BE21AE35A9008E4CF3 /* NSString+Exts.m */; };
+		F17B60CC21AE35A9008E4CF3 /* NSArray+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60BF21AE35A9008E4CF3 /* NSArray+Exts.m */; };
+		F17B60CD21AE35A9008E4CF3 /* NSDictionary+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60C121AE35A9008E4CF3 /* NSDictionary+Exts.m */; };
+		F17B60CE21AE35A9008E4CF3 /* WXZUIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B60C321AE35A9008E4CF3 /* WXZUIAlertController+Blocks.m */; };
 		F1E3F288212560C500205749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F287212560C500205749 /* AppDelegate.m */; };
 		F1E3F28B212560C500205749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F28A212560C500205749 /* ViewController.m */; };
 		F1E3F28E212560C500205749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E3F28C212560C500205749 /* Main.storyboard */; };
@@ -16,15 +25,6 @@
 		F1E3F296212560C600205749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F295212560C600205749 /* main.m */; };
 		F1E3F2A0212560C600205749 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F29F212560C600205749 /* BaseProjectTests.m */; };
 		F1E3F2AB212560C600205749 /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2AA212560C600205749 /* BaseProjectUITests.m */; };
-		F1E3F2C6212563F000205749 /* WXZCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2C5212563F000205749 /* WXZCheck.m */; };
-		F1E3F2C92125643B00205749 /* WXZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2C82125643B00205749 /* WXZUtil.m */; };
-		F1E3F2CD21256BD400205749 /* WXZGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2CC21256BD400205749 /* WXZGCD.m */; };
-		F1E3F2D2212575AF00205749 /* WXZUIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2D1212575AF00205749 /* WXZUIAlertController+Blocks.m */; };
-		F1E3F2D5212577A000205749 /* NSString+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2D4212577A000205749 /* NSString+Exts.m */; };
-		F1E3F2D8212578D800205749 /* NSArray+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2D7212578D800205749 /* NSArray+Exts.m */; };
-		F1E3F2DB21257C2A00205749 /* WXZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2DA21257C2A00205749 /* WXZTimer.m */; };
-		F1E3F2DE21257CA100205749 /* UIView+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2DD21257CA100205749 /* UIView+Exts.m */; };
-		F1E3F2E121257F9000205749 /* NSDictionary+Exts.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E3F2E021257F9000205749 /* NSDictionary+Exts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +45,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F17B609D21AE2DAB008E4CF3 /* WXZDeviceInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZDeviceInfoManager.h; sourceTree = "<group>"; };
-		F17B609E21AE2DAB008E4CF3 /* WXZDeviceInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZDeviceInfoManager.m; sourceTree = "<group>"; };
-		F17B60A321AE2FF5008E4CF3 /* WXZOtherDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZOtherDefine.h; sourceTree = "<group>"; };
-		F17B60A421AE308C008E4CF3 /* WXZToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZToolsHeader.h; sourceTree = "<group>"; };
-		F17B60A521AE3184008E4CF3 /* WXZCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZCategoryHeader.h; sourceTree = "<group>"; };
-		F17B60A621AE31E2008E4CF3 /* WXZImportHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZImportHeader.h; sourceTree = "<group>"; };
+		F17B60A921AE35A9008E4CF3 /* WXZDeviceInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZDeviceInfoManager.m; sourceTree = "<group>"; };
+		F17B60AA21AE35A9008E4CF3 /* WXZToolsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZToolsHeader.h; sourceTree = "<group>"; };
+		F17B60AB21AE35A9008E4CF3 /* WXZCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZCheck.m; sourceTree = "<group>"; };
+		F17B60AC21AE35A9008E4CF3 /* WXZSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZSingle.h; sourceTree = "<group>"; };
+		F17B60AD21AE35A9008E4CF3 /* WXZGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZGCD.m; sourceTree = "<group>"; };
+		F17B60AE21AE35A9008E4CF3 /* WXZTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZTimer.m; sourceTree = "<group>"; };
+		F17B60AF21AE35A9008E4CF3 /* WXZOtherDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZOtherDefine.h; sourceTree = "<group>"; };
+		F17B60B021AE35A9008E4CF3 /* WXZUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXZUtil.m; sourceTree = "<group>"; };
+		F17B60B121AE35A9008E4CF3 /* WXZDeviceInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZDeviceInfoManager.h; sourceTree = "<group>"; };
+		F17B60B221AE35A9008E4CF3 /* WXZProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZProperty.h; sourceTree = "<group>"; };
+		F17B60B321AE35A9008E4CF3 /* WXZMessyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZMessyDefine.h; sourceTree = "<group>"; };
+		F17B60B421AE35A9008E4CF3 /* WXZCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZCheck.h; sourceTree = "<group>"; };
+		F17B60B521AE35A9008E4CF3 /* WXZUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZUtil.h; sourceTree = "<group>"; };
+		F17B60B621AE35A9008E4CF3 /* WXZTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZTimer.h; sourceTree = "<group>"; };
+		F17B60B721AE35A9008E4CF3 /* WXZGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZGCD.h; sourceTree = "<group>"; };
+		F17B60B921AE35A9008E4CF3 /* NSArray+Exts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Exts.h"; sourceTree = "<group>"; };
+		F17B60BA21AE35A9008E4CF3 /* NSDictionary+Exts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Exts.h"; sourceTree = "<group>"; };
+		F17B60BB21AE35A9008E4CF3 /* UIView+Exts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Exts.m"; sourceTree = "<group>"; };
+		F17B60BC21AE35A9008E4CF3 /* WXZCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZCategoryHeader.h; sourceTree = "<group>"; };
+		F17B60BD21AE35A9008E4CF3 /* WXZUIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXZUIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		F17B60BE21AE35A9008E4CF3 /* NSString+Exts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exts.m"; sourceTree = "<group>"; };
+		F17B60BF21AE35A9008E4CF3 /* NSArray+Exts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Exts.m"; sourceTree = "<group>"; };
+		F17B60C021AE35A9008E4CF3 /* UIView+Exts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Exts.h"; sourceTree = "<group>"; };
+		F17B60C121AE35A9008E4CF3 /* NSDictionary+Exts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Exts.m"; sourceTree = "<group>"; };
+		F17B60C221AE35A9008E4CF3 /* NSString+Exts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exts.h"; sourceTree = "<group>"; };
+		F17B60C321AE35A9008E4CF3 /* WXZUIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXZUIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		F17B60C421AE35A9008E4CF3 /* WXZImportHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXZImportHeader.h; sourceTree = "<group>"; };
 		F1E3F283212560C500205749 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E3F286212560C500205749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1E3F287212560C500205749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,27 +88,6 @@
 		F1E3F2A6212560C600205749 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E3F2AA212560C600205749 /* BaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectUITests.m; sourceTree = "<group>"; };
 		F1E3F2AC212560C600205749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1E3F2C22125636100205749 /* WXZSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZSingle.h; sourceTree = "<group>"; };
-		F1E3F2C32125639000205749 /* WXZProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZProperty.h; sourceTree = "<group>"; };
-		F1E3F2C4212563F000205749 /* WXZCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZCheck.h; sourceTree = "<group>"; };
-		F1E3F2C5212563F000205749 /* WXZCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZCheck.m; sourceTree = "<group>"; };
-		F1E3F2C72125643B00205749 /* WXZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZUtil.h; sourceTree = "<group>"; };
-		F1E3F2C82125643B00205749 /* WXZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZUtil.m; sourceTree = "<group>"; };
-		F1E3F2CB21256BD400205749 /* WXZGCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZGCD.h; sourceTree = "<group>"; };
-		F1E3F2CC21256BD400205749 /* WXZGCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZGCD.m; sourceTree = "<group>"; };
-		F1E3F2CE21256F3300205749 /* WXZMessyDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZMessyDefine.h; sourceTree = "<group>"; };
-		F1E3F2D0212575AF00205749 /* WXZUIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXZUIAlertController+Blocks.h"; sourceTree = "<group>"; };
-		F1E3F2D1212575AF00205749 /* WXZUIAlertController+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WXZUIAlertController+Blocks.m"; sourceTree = "<group>"; };
-		F1E3F2D3212577A000205749 /* NSString+Exts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Exts.h"; sourceTree = "<group>"; };
-		F1E3F2D4212577A000205749 /* NSString+Exts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exts.m"; sourceTree = "<group>"; };
-		F1E3F2D6212578D800205749 /* NSArray+Exts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Exts.h"; sourceTree = "<group>"; };
-		F1E3F2D7212578D800205749 /* NSArray+Exts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Exts.m"; sourceTree = "<group>"; };
-		F1E3F2D921257C2A00205749 /* WXZTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZTimer.h; sourceTree = "<group>"; };
-		F1E3F2DA21257C2A00205749 /* WXZTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZTimer.m; sourceTree = "<group>"; };
-		F1E3F2DC21257CA100205749 /* UIView+Exts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Exts.h"; sourceTree = "<group>"; };
-		F1E3F2DD21257CA100205749 /* UIView+Exts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Exts.m"; sourceTree = "<group>"; };
-		F1E3F2DF21257F9000205749 /* NSDictionary+Exts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Exts.h"; sourceTree = "<group>"; };
-		F1E3F2E021257F9000205749 /* NSDictionary+Exts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Exts.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F17B60A721AE35A9008E4CF3 /* Toos */ = {
+			isa = PBXGroup;
+			children = (
+				F17B60A821AE35A9008E4CF3 /* Tools */,
+				F17B60B821AE35A9008E4CF3 /* Category */,
+				F17B60C421AE35A9008E4CF3 /* WXZImportHeader.h */,
+			);
+			path = Toos;
+			sourceTree = "<group>";
+		};
+		F17B60A821AE35A9008E4CF3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F17B60A921AE35A9008E4CF3 /* WXZDeviceInfoManager.m */,
+				F17B60AA21AE35A9008E4CF3 /* WXZToolsHeader.h */,
+				F17B60AB21AE35A9008E4CF3 /* WXZCheck.m */,
+				F17B60AC21AE35A9008E4CF3 /* WXZSingle.h */,
+				F17B60AD21AE35A9008E4CF3 /* WXZGCD.m */,
+				F17B60AE21AE35A9008E4CF3 /* WXZTimer.m */,
+				F17B60AF21AE35A9008E4CF3 /* WXZOtherDefine.h */,
+				F17B60B021AE35A9008E4CF3 /* WXZUtil.m */,
+				F17B60B121AE35A9008E4CF3 /* WXZDeviceInfoManager.h */,
+				F17B60B221AE35A9008E4CF3 /* WXZProperty.h */,
+				F17B60B321AE35A9008E4CF3 /* WXZMessyDefine.h */,
+				F17B60B421AE35A9008E4CF3 /* WXZCheck.h */,
+				F17B60B521AE35A9008E4CF3 /* WXZUtil.h */,
+				F17B60B621AE35A9008E4CF3 /* WXZTimer.h */,
+				F17B60B721AE35A9008E4CF3 /* WXZGCD.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F17B60B821AE35A9008E4CF3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F17B60B921AE35A9008E4CF3 /* NSArray+Exts.h */,
+				F17B60BA21AE35A9008E4CF3 /* NSDictionary+Exts.h */,
+				F17B60BB21AE35A9008E4CF3 /* UIView+Exts.m */,
+				F17B60BC21AE35A9008E4CF3 /* WXZCategoryHeader.h */,
+				F17B60BD21AE35A9008E4CF3 /* WXZUIAlertController+Blocks.h */,
+				F17B60BE21AE35A9008E4CF3 /* NSString+Exts.m */,
+				F17B60BF21AE35A9008E4CF3 /* NSArray+Exts.m */,
+				F17B60C021AE35A9008E4CF3 /* UIView+Exts.h */,
+				F17B60C121AE35A9008E4CF3 /* NSDictionary+Exts.m */,
+				F17B60C221AE35A9008E4CF3 /* NSString+Exts.h */,
+				F17B60C321AE35A9008E4CF3 /* WXZUIAlertController+Blocks.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		F1E3F27A212560C500205749 = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +188,7 @@
 		F1E3F285212560C500205749 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				F1E3F2CF212574A600205749 /* Category */,
-				F1E3F2B92125611D00205749 /* Tools */,
+				F17B60A721AE35A9008E4CF3 /* Toos */,
 				F1E3F286212560C500205749 /* AppDelegate.h */,
 				F1E3F287212560C500205749 /* AppDelegate.m */,
 				F1E3F289212560C500205749 /* ViewController.h */,
@@ -149,7 +198,6 @@
 				F1E3F291212560C600205749 /* LaunchScreen.storyboard */,
 				F1E3F294212560C600205749 /* Info.plist */,
 				F1E3F295212560C600205749 /* main.m */,
-				F17B60A621AE31E2008E4CF3 /* WXZImportHeader.h */,
 			);
 			path = BaseProject;
 			sourceTree = "<group>";
@@ -170,46 +218,6 @@
 				F1E3F2AC212560C600205749 /* Info.plist */,
 			);
 			path = BaseProjectUITests;
-			sourceTree = "<group>";
-		};
-		F1E3F2B92125611D00205749 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				F1E3F2C22125636100205749 /* WXZSingle.h */,
-				F1E3F2C32125639000205749 /* WXZProperty.h */,
-				F1E3F2C4212563F000205749 /* WXZCheck.h */,
-				F1E3F2C5212563F000205749 /* WXZCheck.m */,
-				F1E3F2C72125643B00205749 /* WXZUtil.h */,
-				F1E3F2C82125643B00205749 /* WXZUtil.m */,
-				F1E3F2CB21256BD400205749 /* WXZGCD.h */,
-				F1E3F2CC21256BD400205749 /* WXZGCD.m */,
-				F1E3F2CE21256F3300205749 /* WXZMessyDefine.h */,
-				F1E3F2D921257C2A00205749 /* WXZTimer.h */,
-				F1E3F2DA21257C2A00205749 /* WXZTimer.m */,
-				F17B609D21AE2DAB008E4CF3 /* WXZDeviceInfoManager.h */,
-				F17B609E21AE2DAB008E4CF3 /* WXZDeviceInfoManager.m */,
-				F17B60A321AE2FF5008E4CF3 /* WXZOtherDefine.h */,
-				F17B60A421AE308C008E4CF3 /* WXZToolsHeader.h */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		F1E3F2CF212574A600205749 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				F1E3F2D0212575AF00205749 /* WXZUIAlertController+Blocks.h */,
-				F1E3F2D1212575AF00205749 /* WXZUIAlertController+Blocks.m */,
-				F1E3F2D3212577A000205749 /* NSString+Exts.h */,
-				F1E3F2D4212577A000205749 /* NSString+Exts.m */,
-				F1E3F2D6212578D800205749 /* NSArray+Exts.h */,
-				F1E3F2D7212578D800205749 /* NSArray+Exts.m */,
-				F1E3F2DC21257CA100205749 /* UIView+Exts.h */,
-				F1E3F2DD21257CA100205749 /* UIView+Exts.m */,
-				F1E3F2DF21257F9000205749 /* NSDictionary+Exts.h */,
-				F1E3F2E021257F9000205749 /* NSDictionary+Exts.m */,
-				F17B60A521AE3184008E4CF3 /* WXZCategoryHeader.h */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,19 +350,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17B609F21AE2DAB008E4CF3 /* WXZDeviceInfoManager.m in Sources */,
-				F1E3F2C6212563F000205749 /* WXZCheck.m in Sources */,
-				F1E3F2D5212577A000205749 /* NSString+Exts.m in Sources */,
+				F17B60CA21AE35A9008E4CF3 /* UIView+Exts.m in Sources */,
+				F17B60C621AE35A9008E4CF3 /* WXZCheck.m in Sources */,
 				F1E3F28B212560C500205749 /* ViewController.m in Sources */,
+				F17B60C521AE35A9008E4CF3 /* WXZDeviceInfoManager.m in Sources */,
+				F17B60C921AE35A9008E4CF3 /* WXZUtil.m in Sources */,
 				F1E3F296212560C600205749 /* main.m in Sources */,
-				F1E3F2D8212578D800205749 /* NSArray+Exts.m in Sources */,
-				F1E3F2DB21257C2A00205749 /* WXZTimer.m in Sources */,
-				F1E3F2DE21257CA100205749 /* UIView+Exts.m in Sources */,
-				F1E3F2D2212575AF00205749 /* WXZUIAlertController+Blocks.m in Sources */,
-				F1E3F2E121257F9000205749 /* NSDictionary+Exts.m in Sources */,
+				F17B60CE21AE35A9008E4CF3 /* WXZUIAlertController+Blocks.m in Sources */,
+				F17B60CC21AE35A9008E4CF3 /* NSArray+Exts.m in Sources */,
+				F17B60C721AE35A9008E4CF3 /* WXZGCD.m in Sources */,
+				F17B60CD21AE35A9008E4CF3 /* NSDictionary+Exts.m in Sources */,
+				F17B60C821AE35A9008E4CF3 /* WXZTimer.m in Sources */,
 				F1E3F288212560C500205749 /* AppDelegate.m in Sources */,
-				F1E3F2CD21256BD400205749 /* WXZGCD.m in Sources */,
-				F1E3F2C92125643B00205749 /* WXZUtil.m in Sources */,
+				F17B60CB21AE35A9008E4CF3 /* NSString+Exts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

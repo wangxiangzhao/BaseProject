@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'src/**/*'
   #s.public_header_files = 'src/WXZImportHeader.h'
-
+  s.frameworks = 'UIKit'
+  s.ios.deployment_target = '8.0'
 
 end

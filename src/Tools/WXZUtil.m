@@ -8,7 +8,6 @@
 
 #import "WXZUtil.h"
 #import "WXZMessyDefine.h"
-#import "WXZGCD.h"
 
 @implementation WXZUtil
 
@@ -53,14 +52,14 @@
 }
 
 + (void)callMobile:(NSString *)phoneNumber {
-    dispatch_async_on_main(^{
+    dispatch_async(dispatch_get_main_queue(), ^{
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"telprompt://%@",phoneNumber]];
         open_url(url);
     });
 }
 
 + (void)sendMessage:(NSString *)phoneNumber {
-    dispatch_async_on_main(^{
+    dispatch_async(dispatch_get_main_queue(), ^{
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"sms://%@",phoneNumber]];
         open_url(url);
     });

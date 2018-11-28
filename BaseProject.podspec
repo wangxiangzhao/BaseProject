@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BaseProject"
-  s.version      = "0.1.9"
+  s.version      = "0.2.0"
   s.summary      = "集合工具"
   s.homepage     = "https://github.com/wangxiangzhao/BaseProject"
   s.social_media_url = 'https://www.baidu.com'

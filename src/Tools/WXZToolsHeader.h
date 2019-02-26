@@ -18,7 +18,7 @@
 #import "WXZTimer.h"
 #import "WXZDeviceInfoManager.h"
 #import "WXZOtherDefine.h"
-#import "WXZNotificationCenter.h"
+
 #endif
 
 #endif /* WXZToolsHeader_h */
